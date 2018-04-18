@@ -1,0 +1,7 @@
+
+C:\Users\emily\.texttest\tmp\ab.18Apr084212.11884\ab\foobar>jar tf C:\Users\emily/.texttest/tmp/ab.18Apr084212.11884/ab/PublishApprovalTests/ApprovalTests.Java/target/ApprovalTests.020.zip 
+ApprovalTests.jar
+documentation/
+bulid.xml
+documentation/ApprovalTests - GettingStarted.md
+documentation/ApprovalsTest.testTvGuide.Mac_OS_X.approved.png

@@ -1,0 +1,36 @@
+
+C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker>cd ApprovalTests.Java 
+
+C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java>echo "will build now" 
+"will build now"
+
+C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java>ant "Publish    HtmlLocker" -buildfile build/build.xml 
+Buildfile: C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\build\build.xml
+
+Publish    HtmlLocker:
+
+cleanUp:
+   [delete] Deleting directory C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\target
+
+compile:
+    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\target
+     [echo] org/approvaltests/webpages/**
+    [javac] C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\build\build.xml:6: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 3 source files to C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\target
+    [javac] C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\java\org\approvaltests\webpages\WebPageApproval.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\java\org\approvaltests\webpages\WebPageChangeDetector.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\java\org\approvaltests\webpages\WebPageChangeDetectorGui.java
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 8
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+
+buildJarFile:
+    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\target\src
+     [copy] Copying 351 files to C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\target\src
+      [jar] Building jar: C:\Users\emily\.texttest\tmp\ab.18Apr203949.9384\ab\PublishHtmlLocker\ApprovalTests.Java\target\HtmlLocker.jar
+
+BUILD SUCCESSFUL
+Total time: 8 seconds

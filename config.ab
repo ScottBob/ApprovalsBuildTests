@@ -1,0 +1,39 @@
+# Full path to the System Under Test (or Java Main Class name)
+executable:${TEXTTEST_HOME}/buildApprovals.bat
+
+# Naming scheme to use for files for stdin,stdout and stderr
+filename_convention_scheme:standard
+
+# Expanded name to use for application
+full_name:Approvals Build
+
+copy_test_path:${TEXTTEST_CHECKOUT}
+
+[collate_file]
+jar:ApprovalTests.Java/target/ApprovalTests.jar
+cdjar:ApprovalTests.Java/target/CounterDisplay.jar
+hljar:ApprovalTests.Java/target/HtmlLocker.jar
+zip:ApprovalTests.Java/target/ApprovalTests.020.zip
+[end]
+
+[collate_script]
+jar:${TEXTTEST_HOME}/displayJar.bat
+zip:${TEXTTEST_HOME}/displayJar.bat
+hljar:${TEXTTEST_HOME}/displayJar.bat
+cdjar:${TEXTTEST_HOME}/displayJar.bat
+
+[view_program]
+default:subl
+[end]
+
+[diff_program]
+default:meld
+[end]
+
+[run_dependent_text]
+stdout:{INTERNAL writedir}
+jar:{INTERNAL writedir}
+hljar:{INTERNAL writedir}
+cdjar:{INTERNAL writedir}
+zip:{INTERNAL writedir}
+stdout:(Total time: )\d+{REPLACE \1}

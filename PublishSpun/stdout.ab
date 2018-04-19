@@ -1,0 +1,284 @@
+
+C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun>cd ApprovalTests.Java 
+
+C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java>echo "will build now" 
+"will build now"
+
+C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java>ant cleanUp "Publish    Spun" -buildfile build/build.xml 
+Buildfile: C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\build\build.xml
+
+cleanUp:
+
+Publish    Spun:
+
+cleanUp:
+   [delete] Deleting directory C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\target
+
+compile:
+    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\target
+     [echo] com/spun/**,org/lambda/**
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\build\build.xml:7: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 248 source files to C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\target
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\swing\SwingUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ArrayUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\Asserts.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ByteArrayDataSource.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\CallMethod.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ClassUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\Colors.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\Comparator.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ConditionListener.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ConfigXMLFileReader.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ConfigXMLFileWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ConfigXMLNodeExtractor.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\Country.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\DatabaseConfiguration.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\DatabaseConfigurationWrapper.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\DatabaseUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\DateDifference.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\DateUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\DeprecatedException.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\DualOutputStream.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\EmbeddedSorter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\EnabledConditions.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\FormattedException.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\FrameCloser.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\JsonUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\LambdaThreadLauncher.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\MapBuilder.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\Memory.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\MethodExecutionPath.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\MethodSorter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\MultiSorter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\MySystem.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\NameUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\NumberUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ObjectUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\PhoneNumber.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\PrintUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ProgessFrame.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\SearchingFileFilter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\SearchingFileFilterTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\State.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\StateToPostalCode.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\StringIdentifierGenerator.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\StringUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\SystemUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ThreadLauncher.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ThreadUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\Threads.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\TimedObject.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\Tuple.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\UniversalTestSuite.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\WhiteSpaceStripper.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\WindowUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\constants\SpunConstants.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\AutomaticVariableSetter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\CircularRedundancyError.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\ColumnMetadata.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\DatabaseCache.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\DatabaseLifeCycleUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\DatabaseLoader.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\DatabaseLoadingTracker.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\DatabaseObject.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\DatabaseRelationshipPersistent.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\DatabaseTransactionInfo.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\Metadata.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\NullDatabaseObject.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\ResultSetWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\ReverseOrderLimitQueryWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SQLInformationException.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SQLQuery.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SQLQueryUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SQLQueryWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SQLStatementUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SQLUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SQLWhere.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SimpleQueryWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SqlConnectionException.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SshConnection.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\SshDatabaseWrapper.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\Syncable.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\TemporaryCache.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\XmlDatabaseMapExtractor.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\automaticsetter\AddDateAware.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\automaticsetter\AddDateVariableSetter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\automaticsetter\ChangeDateAware.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\automaticsetter\ChangeDateVariableSetter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\automaticsetter\EndDateAware.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\automaticsetter\EndDateVariableSetter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\database\automaticsetter\PkeyVariableSetter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\date\DateRange.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\date\DateRangeUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\fedex\FedExPaymentType.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\fedex\FedExServiceType.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\filters\AndFilter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\filters\ClassFilter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\filters\Filter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\filters\FilterIn.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\filters\FilterUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\filters\MethodFilter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\filters\MethodFilterBuilder.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\filters\OrFilter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\images\ImageWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\introspection\Caller.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\introspection\ClassGetter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\CharSequenceInputStream.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\CommaDelimitedFileParser.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\FTPConfig.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\FileMonitor.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\FileMonitorTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\FileUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\InternetConnectivityException.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\NetUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\SimpleDirectoryFilter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\SimpleFileFilter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\SpaceDelimitedReader.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\StackElementLevelSelector.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\StackElementSelector.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\TabDelimitedFileReader.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\XMLNodeExtractor.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\XMLUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\ZipUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\filefilters\ExtenstionFileFilter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\filefilters\JavaClassFileFilter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\xml\BasicExtractor.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\xml\DatabaseObjectXMLUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\xml\XMLSerializable.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\xml\XmlExtractable.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\xml\XmlExtractor.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\xml\XmlExtractorUtil.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\xml\XmlMap.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\xml\XmlMapExtractor.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\xml\XmlMapTranslator.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\io\xml\XmlTranslator.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\logger\AppendableWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\logger\JavascriptLogger.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\logger\Markers.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\logger\Output.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\logger\Outputable.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\logger\SimpleLogger.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\logger\SimpleLoggerInstance.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\CurrencyAmount.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\FileLocator.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\JarFileLocator.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\MassAmount.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\ParserCommons.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\PercentageAmount.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\ResourceLocator.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\SteppingIterator.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\TemplateDate.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\TemplateDouble.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\TemplateError.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\TemplateNumberUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\TemplateStringUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\parser\VelocityList.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\persistence\DatabaseObjectDeletor.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\persistence\DatabaseObjectSaver.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\persistence\Deletor.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\persistence\ExecutableQuery.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\persistence\Loader.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\persistence\Saver.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\persistence\SavingException.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\persistence\SqlLoader.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\quartz\QuartzUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\BasicServlet.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\EasyEmailLoader.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\EmailServer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\ErrorToString.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\ExpiredSessionError.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\InvokerServlet.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\PassThrough.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\ProgressBar.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\SecondaryErrorProcessor.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\ServletLogWriterFactory.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\ServletParameterException.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\ServletSynchronizer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\StageServlet.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\StageServletUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\SynchronizedServlet.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\ValidationError.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\servlets\ValidationTracker.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\sql\MockConnection.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\sql\MockDatabaseMetaData.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\sql\MockStatement.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\timers\Clock.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\timers\Counter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\timers\EventTime.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\timers\EventTimer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\timers\LapTime.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\timers\LapTimeStatistics.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\timers\LapTimer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\timers\MetricsDisplayer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ups\UPSConfig.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ups\UPSPackage.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ups\UPSQuote.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ups\UPSQuoteRetriever.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ups\UPSServiceType.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ups\UPSShipment.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\ups\UPSUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\velocity\ContextAware.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\velocity\ParseCall.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\velocity\ParserDateUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\velocity\ServletContextLoader.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\velocity\StringResourceLoader.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\velocity\TestableUberspect.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\velocity\VelocityParser.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\com\spun\util\velocity\VelocityParsingError.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\Action0.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\Action1.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\Action2.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\Action3.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\Action4.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\Action5.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\Action6.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\Action7.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\Action8.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\Action9.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\implementations\A0.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\actions\implementations\A1.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\Function0.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\Function1.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\Function2.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\Function3.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\Function4.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\Function5.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\Function6.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\Function7.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\Function8.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\Function9.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\B1.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\F0.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\F1.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\F2.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\F3.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\F4.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\F5.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\F6.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\F7.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\F8.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\F9.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\Function.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\functions\implementations\S1.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\query\Echo1.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\query\Loops.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\query\OrderBy.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\query\ParallelLoops.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\query\ParallelQuery.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\query\Query.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\src\main\java\org\lambda\utils\Grid.java
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 8
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 1 warning
+
+buildJarFile:
+    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\target\src
+     [copy] Copying 248 files to C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\target\src
+     [copy] Copying 300 files to C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\target
+      [jar] Building jar: C:\Users\emily\.texttest\tmp\ab.19Apr114718.6772\ab\PublishSpun\ApprovalTests.Java\spun\target\spun.jar
+
+BUILD SUCCESSFUL
+Total time: 11 seconds

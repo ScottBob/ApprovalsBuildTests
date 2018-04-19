@@ -1,36 +1,32 @@
 
-C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay>cd ApprovalTests.Java 
+C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay>cd ApprovalTests.Java 
 
-C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java>echo "will build now" 
+C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java>echo "will build now" 
 "will build now"
 
-C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java>ant cleanUp "Publish    CounterDisplay" -buildfile build/build.xml 
-Buildfile: C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java\build\build.xml
+C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java>ant cleanUp "Publish    CounterDisplay" -buildfile build/build.xml 
+Buildfile: C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java\build\build.xml
 
 cleanUp:
 
 Publish    CounterDisplay:
 
 cleanUp:
-   [delete] Deleting directory C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java\target
+   [delete] Deleting directory C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java\target
 
 compile:
-    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java\target
+    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java\target
      [echo] org/counterdisplay/**
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java\build\build.xml:6: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
-    [javac] Compiling 1 source file to C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java\target
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java\java\org\counterdisplay\CounterDisplay.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java\build\build.xml:7: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java\target
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java\counter_display\src\main\java\org\counterdisplay\CounterDisplay.java
     [javac] warning: [options] bootstrap class path not set in conjunction with -source 8
-    [javac] Note: Some input files use or override a deprecated API.
-    [javac] Note: Recompile with -Xlint:deprecation for details.
-    [javac] Note: Some input files use unchecked or unsafe operations.
-    [javac] Note: Recompile with -Xlint:unchecked for details.
     [javac] 1 warning
 
 buildJarFile:
-    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java\target\src
-     [copy] Copying 351 files to C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java\target\src
-      [jar] Building jar: C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishCounterDisplay\ApprovalTests.Java\target\CounterDisplay.jar
+    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java\target\src
+     [copy] Copying 1 file to C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java\target\src
+      [jar] Building jar: C:\Users\emily\.texttest\tmp\ab.19Apr114136.4992\ab\PublishCounterDisplay\ApprovalTests.Java\target\CounterDisplay.jar
 
 BUILD SUCCESSFUL
-Total time: 26 seconds
+Total time: 2 seconds

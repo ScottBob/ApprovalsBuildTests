@@ -1,164 +1,151 @@
 
-C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests>cd ApprovalTests.Java 
+C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests>cd ApprovalTests.Java 
 
-C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java>echo "will build now" 
+C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java>echo "will build now" 
 "will build now"
 
-C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java>ant cleanUp "Publish    ApprovalTests" -buildfile build/build.xml 
-Buildfile: C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\build\build.xml
+C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java>ant cleanUp "Publish    ApprovalTests" -buildfile build/build.xml 
+Buildfile: C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\build\build.xml
 
 cleanUp:
 
 Publish    ApprovalTests:
 
 cleanUp:
-   [delete] Deleting directory C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\target
+   [delete] Deleting directory C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\target
 
 compile:
-    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\target
-     [echo] org/approvaltests/**,com/spun/*, org/lambda/**,org/jrack/**,com/spun/util/UniversalTestSuite*
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\build\build.xml:6: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
-    [javac] Compiling 140 source files to C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\target
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\com\spun\util\UniversalTestSuite.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\ApprovalUtilities.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\Approvals.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\ReporterFactory.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\StackListings.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\approvers\ApprovalApprover.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\approvers\FileApprover.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\combinations\CombinationApprovals.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\combinations\SkipCombination.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\core\ApprovalFailureReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\core\ApprovalReporterWithCleanUp.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\core\ApprovalWriter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\Echo.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\PairComparer.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\Transform.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\WritableUtils.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\version1\HadoopApprovals.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\version1\MapperWrapper.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\version1\ReducerWrapper.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\version1\SmartMapper.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\version1\SmartReducer.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\version2\HadoopApprovals.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\version2\MapperWrapper.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\version2\ReducerWrapper.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\version2\SmartMapper.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\hadoop\version2\SmartReducer.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\legacycode\AllPoints.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\legacycode\IndexPermutations.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\legacycode\LegacyApprovals.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\legacycode\Range.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\namer\ApprovalNamer.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\namer\ApprovalResults.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\namer\AttributeStackSelector.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\namer\IdeLabeller.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\namer\MultipleFilesLabeller.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\namer\NamedEnvironment.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\namer\NamerFactory.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\namer\OsEnvironmentLabeller.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\namer\StackTraceNamer.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\AlwaysWorkingReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\ClipboardReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\DefaultFrontLoadedReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\DelayedClipboardReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\DiffInfo.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\DiffReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\EnvironmentAwareReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\ExecutableQueryFailure.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\FileLauncherReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\FirstWorkingReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\GenericDiffReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\ImageReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\ImageWebReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\JunitReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\MultiReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\MultipleExceptions.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\NotePadLancher.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\PitReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\QuietReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\TestNgReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\TextWebReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\UseReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\macosx\BeyondCompareMacReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\macosx\DiffMergeReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\macosx\DiffPrograms.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\macosx\KDiff3Reporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\macosx\KaleidoscopeDiffReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\macosx\MacDiffReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\macosx\P4MergeReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\macosx\TkDiffReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\macosx\VisualStudioCodeReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\AraxisMergeReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\BeyondCompare3Reporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\BeyondCompare4Reporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\BeyondCompareReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\CodeCompareReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\KDiff3Reporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\TortoiseDiffReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\TortoiseImageDiffReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\TortoiseTextDiffReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\VisualStudioCodeReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\WinMergeReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\reporters\windows\WindowsDiffReporter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\strings\Printer.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\velocity\VelocityApprovals.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\webpages\WebPageApproval.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\webpages\WebPageChangeDetector.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\webpages\WebPageChangeDetectorGui.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\writers\ApprovalBinaryFileWriter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\writers\ApprovalTextWriter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\writers\ApprovalXmlWriter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\writers\ComponentApprovalWriter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\writers\DirectoryToDirectoryWriter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\writers\FileApprovalWriter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\writers\ImageApprovalWriter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\writers\ResultSetApprovalWriter.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\writers\Writer.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\approvaltests\writers\test\DatabaseWriterTest.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\Action0.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\Action1.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\Action2.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\Action3.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\Action4.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\Action5.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\Action6.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\Action7.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\Action8.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\Action9.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\implementations\A0.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\actions\implementations\A1.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\Function0.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\Function1.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\Function2.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\Function3.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\Function4.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\Function5.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\Function6.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\Function7.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\Function8.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\Function9.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\B1.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\F0.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\F1.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\F2.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\F3.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\F4.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\F5.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\F6.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\F7.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\F8.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\F9.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\Function.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\functions\implementations\S1.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\query\Echo1.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\query\Loops.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\query\OrderBy.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\query\ParallelLoops.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\query\ParallelQuery.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\query\Query.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\utils\Grid.java
-    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\java\org\lambda\utils\test\GridTest.java
+    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\target
+     [echo] org/approvaltests/**,org/jrack/**,org/packagesettings/**
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\build\build.xml:7: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 127 source files to C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\target
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\ApprovalUtilities.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\Approvals.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\ReporterFactory.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\StackListings.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\approvers\ApprovalApprover.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\approvers\FileApprover.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\approvers\tests\FileApproverTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\combinations\CombinationApprovals.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\combinations\SkipCombination.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\combinations\tests\CombinationTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\core\ApprovalFailureReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\core\ApprovalReporterWithCleanUp.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\core\ApprovalWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\Echo.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\PairComparer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\Transform.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\WritableUtils.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version1\HadoopApprovals.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version1\MapperWrapper.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version1\ReducerWrapper.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version1\SmartMapper.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version1\SmartReducer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version1\tests\HadoopApprovalsTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version2\HadoopApprovals.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version2\MapperWrapper.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version2\ReducerWrapper.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version2\SmartMapper.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version2\SmartReducer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version2\tests\HadoopApprovalsTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\hadoop\version2\tests\WritableConversionTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\legacycode\AllPoints.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\legacycode\IndexPermutations.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\legacycode\LegacyApprovals.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\legacycode\Range.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\legacycode\tests\AllPointsTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\legacycode\tests\IndexPermutationsTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\legacycode\tests\LegacyApprovalsTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\ApprovalNamer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\ApprovalResults.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\AttributeStackSelector.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\IdeLabeller.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\MultipleFilesLabeller.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\NamedEnvironment.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\NamerFactory.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\OsEnvironmentLabeller.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\StackTraceNamer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\tests\JUnit4StackTraceNamerTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\tests\JUnitStackTraceNamerTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\tests\NamerFactoryTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\namer\tests\TestNgStackTraceNamerTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\packagesettings\tests\PackageSettings.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\packagesettings\tests\PackageSettingsTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\AlwaysWorkingReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\ClipboardReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\DefaultFrontLoadedReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\DelayedClipboardReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\DiffInfo.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\DiffReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\EnvironmentAwareReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\ExecutableQueryFailure.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\FileLauncherReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\FirstWorkingReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\GenericDiffReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\ImageReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\ImageWebReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\JunitReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\MultiReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\MultipleExceptions.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\NotePadLancher.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\PitReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\QuietReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\TestNgReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\TextWebReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\UseReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\macosx\BeyondCompareMacReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\macosx\DiffMergeReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\macosx\DiffPrograms.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\macosx\KDiff3Reporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\macosx\KaleidoscopeDiffReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\macosx\MacDiffReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\macosx\P4MergeReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\macosx\TkDiffReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\macosx\VisualStudioCodeReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\tests\GenericDiffReporterTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\tests\QueryableDiffReporterHarness.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\tests\ReporterChainingTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\tests\UseReporterTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\AraxisMergeReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\BeyondCompare3Reporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\BeyondCompare4Reporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\BeyondCompareReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\CodeCompareReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\KDiff3Reporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\TortoiseDiffReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\TortoiseImageDiffReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\TortoiseTextDiffReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\VisualStudioCodeReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\WinMergeReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\reporters\windows\WindowsDiffReporter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\strings\Printer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\ApprovalsTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\DirectoryOutputTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\EnumerationsTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\JsonFormattingTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\MyStringBuilder.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\PackageSettings.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\ReportInjectionTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\ReporterFactoryPackageLevelTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\ReporterFactoryTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\Samples.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\TestApprovals.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\WeatherLoader.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\WeatherTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\tests\demos\SampleArrayTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\velocity\VelocityApprovals.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\writers\ApprovalBinaryFileWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\writers\ApprovalTextWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\writers\ApprovalXmlWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\writers\ComponentApprovalWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\writers\DirectoryToDirectoryWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\writers\FileApprovalWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\writers\ImageApprovalWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\writers\ResultSetApprovalWriter.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\writers\Writer.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\approvaltests\writers\test\DatabaseWriterTest.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\packagesettings\PackageLevelSettings.java
+    [javac] C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\src\main\java\org\packagesettings\Settings.java
     [javac] warning: [options] bootstrap class path not set in conjunction with -source 8
     [javac] Note: Some input files use or override a deprecated API.
     [javac] Note: Recompile with -Xlint:deprecation for details.
@@ -167,14 +154,13 @@ compile:
     [javac] 1 warning
 
 buildJarFile:
-    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\target\src
-     [copy] Copying 351 files to C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\target\src
-     [copy] Copying 247 files to C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\target
-     [copy] Copied 15 empty directories to 1 empty directory under C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\target
-      [jar] Building jar: C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\target\ApprovalTests.jar
+    [mkdir] Created dir: C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\target\src
+     [copy] Copying 95 files to C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\target\src
+     [copy] Copying 184 files to C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\target
+      [jar] Building jar: C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\target\ApprovalTests.jar
 
 createDownload:
-      [zip] Building zip: C:\Users\emily\.texttest\tmp\ab.19Apr110436.7892\ab\PublishApprovalTests\ApprovalTests.Java\target\ApprovalTests.020.zip
+      [zip] Building zip: C:\Users\emily\.texttest\tmp\ab.19Apr124811.2628\ab\PublishApprovalTests\ApprovalTests.Java\approvals\target\ApprovalTests.020.zip
 
 BUILD SUCCESSFUL
-Total time: 31 seconds
+Total time: 9 seconds

@@ -10,10 +10,11 @@ full_name:Approvals Build
 copy_test_path:${TEXTTEST_CHECKOUT}
 
 [collate_file]
-jar:ApprovalTests.Java/target/ApprovalTests.jar
-cdjar:ApprovalTests.Java/target/CounterDisplay.jar
-hljar:ApprovalTests.Java/target/HtmlLocker.jar
-zip:ApprovalTests.Java/target/ApprovalTests.020.zip
+jar:ApprovalTests.Java/approvals/target/ApprovalTests.jar
+cdjar:ApprovalTests.Java/counter_display/target/CounterDisplay.jar
+hljar:ApprovalTests.Java/html_locker/target/HtmlLocker.jar
+sjar:ApprovalTests.Java/spun/target/spun.jar
+zip:ApprovalTests.Java/approvals/target/ApprovalTests.020.zip
 [end]
 
 [collate_script]
@@ -21,6 +22,7 @@ jar:${TEXTTEST_HOME}/displayJar.bat
 zip:${TEXTTEST_HOME}/displayJar.bat
 hljar:${TEXTTEST_HOME}/displayJar.bat
 cdjar:${TEXTTEST_HOME}/displayJar.bat
+sjar:${TEXTTEST_HOME}/displayJar.bat
 
 [view_program]
 default:subl
@@ -35,5 +37,6 @@ stdout:{INTERNAL writedir}
 jar:{INTERNAL writedir}
 hljar:{INTERNAL writedir}
 cdjar:{INTERNAL writedir}
+sjar:{INTERNAL writedir}
 zip:{INTERNAL writedir}
 stdout:(Total time: )\d+{REPLACE \1}
